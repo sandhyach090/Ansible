@@ -1,7 +1,7 @@
 ---
-hosts: mywebserver
-become: yes
-tasks:
+- hosts: mywebserver
+  become: yes
+  tasks:
 - name: i want to install java on ubuntu
   apt:
    name: "{{myjavaonubuntu}}"
