@@ -1,3 +1,11 @@
-
+[mywebserver]
 172.31.7.230
 172.31.44.9
+
+
+
+[mywebserver:vars]
+mywebserveronubuntu = appache2
+mywebserveronredhat = httpd
+
+
