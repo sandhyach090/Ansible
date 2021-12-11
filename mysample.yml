@@ -6,22 +6,22 @@
       apt:
          name: 
          state: present
-      when: Ansible_os_family=="Debian"
+      when: ansible_os_family =="Debian"
     - name: i want to start webserver on ubuntu
       service:
          name:"{{mywebserveronubuntu}}"
          state:started
-      when: Ansible_os_family=="Debian"
+      when: ansible_os_family =="Debian"
     - name: i want to install webserver on redhat
       yum: 
          name: "{{mywebserveronredhat}}"
          state: present
-      when:  Ansible_os_family=="RedHat"
+      when:  ansible_os_family =="RedHat"
     - name: i want to start webserver
       service:
         name: "{{mywebserveronredhat}}"
         state: started
-      when:  Ansible_os_family=="RedHat"
+      when:  ansible_os_family =="RedHat"
 
 
 

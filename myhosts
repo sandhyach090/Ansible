@@ -4,9 +4,3 @@
 
 
 
-
-[mywebserver:vars]
-mywebserveronubuntu=appache2
-mywebserveronredhat=httpd
-
-
