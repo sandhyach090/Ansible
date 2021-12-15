@@ -1,0 +1,14 @@
+---
+- hosts: 172.31.44.9
+  become: yes
+  tasks:
+   - name: i wnant to install git
+     apt:
+      name: git
+      state: present
+      
+   - name: i want to install tree
+     apt:
+      name: tree
+      stateeeeee: present
+     ignore_errors: yes
