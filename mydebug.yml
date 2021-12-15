@@ -1,0 +1,10 @@
+---
+- hosts:
+  become: yes
+  tasks:
+   - name: i want to execute command directly
+     command: hostname -f
+     register: myresult
+   - name: i want to debug
+     debug:
+      msg: "{{myresult}}"
