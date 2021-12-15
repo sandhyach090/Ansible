@@ -6,18 +6,18 @@
      apt:
        name: git 
        state: present
-       tags: mygit
+     tags: mygit
    - name: i want to insatall tree
      apt:
        name: tree 
        state: present
-       tags: mytree
+     tags: mytree
        
    - name: i want to insatall wget
      apt:
        name: wget 
        state: present
-       tags: mywget
+     tags: mywget
        
 
 
