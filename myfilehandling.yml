@@ -1,0 +1,9 @@
+---
+- hosts: 172.31.44.9
+  become: yes
+- include_tasks: myfile.yml
+- name: i want to install webserver
+  apt:
+   name: apache2
+   state: present
+  
