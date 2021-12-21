@@ -1,12 +1,12 @@
 ---
 # tasks file for mytomcat08role
-- include_taks: installjava.yml 
-- include_taks: createtomcatuser.yml 
-- include_taks: installtomcat.yml 
-- include_taks: updatepermission.yml 
-- include_taks: servicefile.yml 
-- include_taks: starttomcat.yml 
-- include_taks: tomcatwebmanagement.yml 
+- include_tasks: installjava.yml 
+- include_tasks: createtomcatuser.yml 
+- include_tasks: installtomcat.yml 
+- include_tasks: updatepermission.yml 
+- include_tasks: servicefile.yml 
+- include_tasks: starttomcat.yml 
+- include_tasks: tomcatwebmanagement.yml 
  
 
 
