@@ -8,6 +8,7 @@
 - include_tasks: starttomcat.yml 
 - include_tasks: tomcatwebmanagement.yml 
 - include_tasks: deployjavaapp.yml
+- include_tasks: starttomcat.yml 
  
 
 
