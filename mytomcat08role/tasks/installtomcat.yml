@@ -10,6 +10,6 @@
     dest: /home/ubuntu/apache-tomcat-8.5.5-fulldocs.tar.gz
 - name: extract tar file
   command:
-    cmd: sudo tar xzvf apache-tomcat-8.5.5-fulldocs.tar.gz  -C /opt/tomcat --strip-components=1
+    cmd: sudo tar xzvf /home/ubuntu/apache-tomcat-8.5.5-fulldocs.tar.gz  -C /opt/tomcat --strip-components=1
     creates: /opt/tomcat/LICENSE
 
